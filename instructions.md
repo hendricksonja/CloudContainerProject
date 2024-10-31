@@ -1,3 +1,13 @@
+# Project Table of Contents
+## Table of Contents
+
+1. [Detailed Instructions to Run a Static Website with Docker Desktop](#detailed-instructions-to-run-a-static-website-with-docker-desktop)
+2. [Detailed Instructions: Introducing Persistent Storage in Docker with Nginx](#detailed-instructions-introducing-persistent-storage-in-docker-with-nginx)
+3. [Detailed Instructions: Running a MySQL Container with Persistent Storage](#detailed-instructions-running-a-mysql-container-with-persistent-storage)
+4. [Detailed Instructions: Setting Up PHP-FPM and Nginx for Dynamic Content](#detailed-instructions-setting-up-php-fpm-and-nginx-for-dynamic-content)
+5. [Detailed Instructions: Bringing It All Together with Docker Compose](#detailed-instructions-bringing-it-all-together-with-docker-compose)
+6. [Detailed Instructions: Adding Persistent Storage for WordPress](#detailed-instructions-adding-persistent-storage-for-wordpress)
+
 # Detailed Instructions to Run a Static Website with Docker Desktop
 
 This guide will walk you through the process of creating a simple static website using Docker Desktop. You'll create an `index.html` file, write a `Dockerfile`, build a Docker image, and run a container to serve your website locally on `http://localhost:8080`.
