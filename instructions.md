@@ -303,7 +303,7 @@ In this step, you'll learn how to persist data in Docker by using a bind mount. 
 
    The command you'll run is:
    ```bash
-   docker run -p 8080:80 -v $(pwd)/website:/usr/share/nginx/html nginx
+   docker run -p 8080:80 -v "$(pwd)/website":/usr/share/nginx/html nginx
    ```
 
    **Explanation:**
@@ -321,7 +321,7 @@ In this step, you'll learn how to persist data in Docker by using a bind mount. 
 
    **For macOS/Linux:**
    ```bash
-   docker run -d -p 8080:80 -v $(pwd)/website:/usr/share/nginx/html --name nginx-persistent nginx
+   docker run -d -p 8080:80 -v "$(pwd)/website":/usr/share/nginx/html --name nginx-persistent nginx
    ```
 
    **For Windows Command Prompt:**
@@ -1066,7 +1066,7 @@ You'll set up Nginx to serve static files and forward PHP requests to the PHP-FP
    docker run -d \
      --name nginx \
      -p 8080:80 \
-     -v $(pwd)/app:/var/www/html \
+     -v "$(pwd)/app":/var/www/html \
      --network nginx-php-network \
      custom-nginx
    ```
