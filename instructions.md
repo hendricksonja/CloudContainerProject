@@ -927,7 +927,7 @@ You'll use the official `php:fpm` Docker image to set up the PHP-FPM container.
    ```bash
    docker run -d \
      --name php-fpm \
-     -v $(pwd)/app:/var/www/html \
+     -v "$(pwd)/app":/var/www/html \
      php:fpm
    ```
 
