@@ -1383,6 +1383,7 @@ Your application will consist of the following components:
    services:
      nginx:
        image: nginx:latest
+       platform: linux/amd64
        container_name: nginx
        ports:
          - "8080:80"
@@ -1396,6 +1397,7 @@ Your application will consist of the following components:
 
      php-fpm:
        image: php:7.4-fpm
+       platform: linux/amd64
        container_name: php-fpm
        volumes:
          - ./wordpress:/var/www/html
@@ -1404,6 +1406,7 @@ Your application will consist of the following components:
 
      mysql:
        image: mysql:5.7
+       platform: linux/amd64
        container_name: mysql
        volumes:
          - ./mysql:/var/lib/mysql
