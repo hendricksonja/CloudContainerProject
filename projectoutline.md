@@ -1,4 +1,3 @@
-That sounds like a fantastic assignment idea! Let me help you break it down into incremental steps for your students. Each step will build their understanding while giving them practical experience, eventually leading them to a multi-container app for hosting WordPress.
 
 ### Assignment Outline: Build a Multi-Container WordPress Hosting Application
 
